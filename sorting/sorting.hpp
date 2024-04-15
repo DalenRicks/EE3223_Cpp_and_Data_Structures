@@ -7,6 +7,13 @@ using namespace std;
 
 //Function fo Insertion Sort
 void insertionSort(int list[], int listSize){
+    //Printing the list before sorting
+    cout << "Insertion sort input list " << endl;
+    for(int i = 0; i < listSize; i++){
+        cout << list[i] << " ";
+    }
+    cout << endl;
+
     for(int i = 1; i < listSize; i++){
         //Insert list[i] into sorted sublist list[0..i-1]
         //so that list[0..i] is sorted
@@ -21,7 +28,9 @@ void insertionSort(int list[], int listSize){
         list[k+1] = currentElement;
     }
     
+
     //Printing the list after sorting
+    cout << "Sorted list " << endl;
     for(int i = 0; i < listSize; i++){
         cout << list[i] << " ";
     }
@@ -30,6 +39,13 @@ void insertionSort(int list[], int listSize){
 
 //Function for Bubble Sort
 void bubbleSort(int list[], int arraySize){
+    //Printing the list before sorting
+    cout << "Bubble sort input list " << endl;
+    for(int i = 0; i < arraySize; i++){
+        cout << list[i] << " ";
+    }
+    cout << endl;
+
     bool needNextPass = true;
     
     for(int k = 1; k < arraySize && needNextPass; k++){
@@ -47,7 +63,9 @@ void bubbleSort(int list[], int arraySize){
         }
     }
     
+
     //Printing the list after sorting
+    cout << "Sorted list " << endl;
     for(int i = 0; i < arraySize; i++){
         cout << list[i] << " ";
     }
@@ -102,9 +120,17 @@ void quickSort(int list[], int first, int last){
 }
 
 void quickSort(int list[], int arraySize){
+    //Printing the list before sorting
+    cout << "Quick sort input list " << endl;
+    for(int i = 0; i < arraySize; i++){
+        cout << list[i] << " ";
+    }
+    cout << endl;
+
     quickSort(list, 0, arraySize - 1);
     
     //Printing the list after sorting
+    cout << "Sorted list " << endl;
     for(int i = 0; i < arraySize; i++){
         cout << list[i] << " ";
     }

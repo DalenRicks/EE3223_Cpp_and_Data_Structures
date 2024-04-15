@@ -35,6 +35,7 @@ void insertionSort(int list[], int listSize){
         cout << list[i] << " ";
     }
     cout << endl;
+    cout << endl;
 }
 
 //Function for Bubble Sort
@@ -69,6 +70,7 @@ void bubbleSort(int list[], int arraySize){
     for(int i = 0; i < arraySize; i++){
         cout << list[i] << " ";
     }
+    cout << endl;
     cout << endl;
 }
 
@@ -134,6 +136,7 @@ void quickSort(int list[], int arraySize){
     for(int i = 0; i < arraySize; i++){
         cout << list[i] << " ";
     }
+    cout << endl;
     cout << endl;
 }
 

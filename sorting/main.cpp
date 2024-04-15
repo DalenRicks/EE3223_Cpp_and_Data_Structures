@@ -3,10 +3,12 @@
 using namespace std;
 
 int main() {
+    //Input test cases
     int input1[] = {-1, 2, 3, 5, -2, 8};
     int input2[] = {-1, 2, 3, 5, -2, 8};
     int input3[] = {-1, 2, 3, 5, -2, 8};
     
+    //Finding the size of the arrays
     int input1Size = sizeof(input1)/sizeof(input1[0]);
     int input2Size = sizeof(input2)/sizeof(input2[0]);
     int input3Size = sizeof(input3)/sizeof(input3[0]);

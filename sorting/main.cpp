@@ -3,12 +3,16 @@
 using namespace std;
 
 int main() {
-    const int SIZE = 9;
-    int list1[] = {1, 7, 3, 4, 9, 3, 3, 1, 2};
-    int list2[] = {1, 7, 3, 4, 9, 3, 3, 1, 2};
-    int list3[] = {1, 7, 3, 4, 9, 3, 3, 1, 2};
-    insertionSort(list1, SIZE);
-    bubbleSort(list2, SIZE);
-    quickSort(list3, SIZE);
+    int input1[] = {-1, 2, 3, 5, -2, 8};
+    int input2[] = {-1, 2, 3, 5, -2, 8};
+    int input3[] = {-1, 2, 3, 5, -2, 8};
+    
+    int input1Size = sizeof(input1)/sizeof(input1[0]);
+    int input2Size = sizeof(input2)/sizeof(input2[0]);
+    int input3Size = sizeof(input3)/sizeof(input3[0]);
+    
+    insertionSort(input1, input1Size);
+    bubbleSort(input2, input2Size);
+    quickSort(input3, input3Size);
     return 0;
 }

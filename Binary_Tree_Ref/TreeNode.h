@@ -8,6 +8,7 @@
 #ifndef TREE_NODE_
 #define TREE_NODE_
 
+
 template<class ItemType>
 class TreeNode
 {
@@ -33,6 +34,6 @@ public:
    TreeNode<ItemType> getRight() const;
 }; // end TreeNode
 
-#include "TreeNode.cpp"
+
 
 #endif 

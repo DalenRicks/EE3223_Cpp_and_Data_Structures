@@ -10,11 +10,11 @@
 #define BINARY_SEARCH_TREE_
 
 #include <memory>
-#include "BinaryTreeInterface.h"
 #include "BinaryNode.h"
 #include "BinaryNodeTree.h"
-#include "NotFoundException.h"
-#include "PrecondViolatedExcep.h"
+#include "BinaryTreeInterface.h"
+
+
 
 template<class ItemType>
 class BinarySearchTree : public BinaryNodeTree<ItemType>
